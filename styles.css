@@ -1,0 +1,120 @@
+nav {
+		height: 45px;
+		width: 100%;
+		position: absolute;
+		top: 10vh;
+		z-index: 10;
+}
+
+
+
+nav, .dark, .wrapper-social {
+	background: #007f00;
+}
+#logo {
+	height: 45px;
+	width: auto;
+}
+
+.light {
+	background:#99cc00;
+}
+
+a {
+	color: white;
+}
+
+main {
+	position: relative;
+	top:16vh;
+}
+
+.mainMenu {
+	width: 90%;
+	}
+
+.cl-md-10, .rowWrapper, .mainMenu {
+	min-height: 80vh;
+}
+
+
+.layer {
+	height: 50%;
+}
+
+
+
+footer {
+	padding-top: 10px;
+}
+div[class^="col-"] {
+	position: relative;
+}
+
+div[class^="col-"], div.well{
+	 margin: 0;
+	padding: 0;	
+}
+
+div.well {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.well p, .review p {
+	text-align: center;
+}
+
+
+
+.thumb, img.reviewFacebook  { 
+  width: 150px;
+  border-radius: 50%;
+  margin: auto 0;
+}
+
+div.contacts {
+	float:left;
+	margin-left: 30px;
+}
+
+footer {
+	position:absolute;
+	z-index: 100;
+	bottom: 1vh;
+}
+
+/*About*/
+
+img.aboutPic {
+	width: 75%;
+}
+
+/*Social Media*/
+
+.container-social {
+   margin-left: 4%;
+   margin-right: 0;
+}
+
+img[src^="social"], img[src*="mainFacebook"] {
+	width:100%;
+}
+
+.socialRow {
+padding-top: 15px;}
+}
+
+	
+
+div.container-mainFacebook {
+	width:50%;
+	margin: 0;
+}
+
+
+
+
+
