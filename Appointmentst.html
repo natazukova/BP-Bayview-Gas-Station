@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BP _Home page</title>
+<title>BP _Appointments page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="styles.css" />
@@ -36,45 +36,47 @@
             </ul>
         </nav>
 		<main>	
-		<div class="container wrapper-social">
-				<h4 > Follow us on Facebook</h4>
+		<div class="container appointments">
 
 			<div class="row">
-				<div class="col-3">
-				
-				<div class="container container-social">
-					<div class="row socialRow">
-						<div class="col"> <img src="social1.jpg"></div>
-						<div class="col"><img src="social2.jpg"></div>
-						<div class="col"><img src="social3.jpg"></div>
-					</div>
-					<div class="row socialRow">
-					<div class="col"><img src="social4.jpg"></div>
-					<div class="col"><img src="social5.jpg"></div>
-					<div class="col"><img src="social6.jpg"></div>
-					</div>
-				</div>
+			
+					<div class="col-8 wrapperForm">
+				<h3 class="schedHeader" >Schedule an appointment</h3>	
+							<form class="appointmentForm">
+									  <div class="form-group">
+										<label for="exampleInputFirstName">First and Last Name </label>
+										<input type="text" class="form-control" placeholder="Enter your first and last name">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputFirstName">Phone number </label>
+										<input type="text" class="form-control" placeholder="Enter your contact phone">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputFirstName">Email </label>
+										<input type="email" class="form-control" id="email" placeholder="Enter your email">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputFirstName">Requested Date </label>
+										<input type="text" class="form-control" placeholder="Enter time and date of your visit">
+									  </div>
+									  <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+							</form>
 					
-				</div>
-					 
-					<div class="col-7">
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBayviewBP%2F&tabs=timeline&width=560px&height=1500px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="560px" height="1500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>					</div>
-					<div class="col-2"><div class="review"><p>
-					<p>Karen Plate reviewed Bayview BP — 5 star</p>
-					<p>July 17, 2015</p>
-					<img src="karen.jpg" class="reviewFacebook">
-					<p>Bayview BP Mechanics are the BEST!</p>					
 					</div>
-					</div>
-				
-				
+					<div class="col-4 wrapperCalendar">
+					<h3>Select an available date</h3>
+					<iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bayviewbpgas%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border-width:0" class="calendar" width="350" height="400" frameborder="0" scrolling="no"></iframe></div>
 			</div>
+
+				
+		</div>
 
 				
 			
 		  
 		</div>
 	</main>
+
 	</body>
 	<footer></footer>
 	</html>

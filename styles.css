@@ -1,5 +1,5 @@
 nav {
-		height: 45px;
+		height: 6vh;
 		width: 100%;
 		position: absolute;
 		top: 10vh;
@@ -8,12 +8,14 @@ nav {
 
 
 
-nav, .dark, .wrapper-social {
+nav, .dark, .wrapper-social, .container {
 	background: #007f00;
 }
 #logo {
 	height: 45px;
 	width: auto;
+	margin-left:5%;
+	margin-top: 1%;
 }
 
 .light {
@@ -26,22 +28,30 @@ a {
 
 main {
 	position: relative;
-	top:16vh;
-}
-
-.mainMenu {
-	width: 90%;
+	top:7vh;
 	}
 
-.cl-md-10, .rowWrapper, .mainMenu {
+.mainMenu, .mainLinks {
+	width: 90%;
+	}
+	
+	.mainLinks {
+		margin: 0 auto;
+		text-align: center;
+		
+	}
+.cl-md-10, .rowWrapper, .mainMenu, .appointments {
 	min-height: 80vh;
+}
+
+.container {
+	padding-top: 2vh;
 }
 
 
 .layer {
 	height: 50%;
 }
-
 
 
 footer {
@@ -63,27 +73,46 @@ div.well {
   transform: translate(-50%, -50%);
 }
 
-.well p, .review p {
+.well, .review {
 	text-align: center;
 }
 
+.well p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-
+.leftAside {
+  text-align: center;
+  padding: 55% 15% 0;
+	
+}
 .thumb, img.reviewFacebook  { 
-  width: 150px;
+  width: 120px;
   border-radius: 50%;
   margin: auto 0;
 }
 
-div.contacts {
-	float:left;
-	margin-left: 30px;
+.soda{
+	background: url(images/soda.jpg);
+	background-size: cover;
+}
+
+/*  Footer   */
+
+footer {
+	width: 90%;
+	position:relative;
+padding-top: 7vh;
+margin: 0 auto;
 }
 
 footer {
-	position:absolute;
-	z-index: 100;
-	bottom: 1vh;
+	display: flex;
+	justify-content: space-between;
 }
 
 /*About*/
@@ -99,22 +128,81 @@ img.aboutPic {
    margin-right: 0;
 }
 
-img[src^="social"], img[src*="mainFacebook"] {
+img[src^="social"] {
 	width:100%;
+}
+
+img[src^="karen"] {
+	width: 65%;
+	
 }
 
 .socialRow {
 padding-top: 15px;}
 }
 
-	
 
 div.container-mainFacebook {
 	width:50%;
 	margin: 0;
 }
 
+/*Appointments*/
 
+.appointmentForm, .calendar {
+	padding-top: 3vh;
+}
+.calendar {
+	width: 80%;
+}
+
+.appointmentForm {
+	width: 70%;
+}
+
+.schedHeader, .appointmentForm {
+		margin-left:3vw;
+	
+}
+
+.wrapperCalendar {
+	text-align: center;
+}
+
+.wrapperForm {
+	margin: 0 auto;
+}
+
+/*Specials*/
+div.well {
+	width:100%;
+	height:100%;
+}
+
+
+.coolCar{
+	background: url(images/CoolCar.jpg);
+	background-size: cover;
+}
+
+.girl{
+	background: url(images/girl.jpg);
+	background-size: cover;
+}
+.breakfast{
+	background: url(images/breakfast.jpg);
+	background-size: cover;
+}
+
+.notebook{
+	background: url(images/notebook.jpg);
+	background-size: cover;
+}
+
+
+.well a {
+	color: black;
+}
 
 
 
