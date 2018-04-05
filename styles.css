@@ -1,8 +1,8 @@
 nav {
-		height: 6vh;
+		height: 5vh;
 		width: 100%;
-		position: absolute;
-		top: 10vh;
+		position: relative;
+		top: 3vh;
 		z-index: 10;
 }
 
@@ -14,32 +14,34 @@ nav, .dark, .wrapper-social, .container {
 #logo {
 	height: 45px;
 	width: auto;
-	margin-left:5%;
+	margin-left:11%;
 	margin-top: 1%;
 }
+
+
 
 .light {
 	background:#99cc00;
 }
 
-a {
+a.nav-link{
 	color: white;
 }
 
-main {
-	position: relative;
-	top:7vh;
+a.nav-link:hover {
+	color: #FFFF00;
 	}
+	
 
+
+.mainMenu {
+	position:relative;
+	top:3vh;
+	}
 .mainMenu, .mainLinks {
 	width: 90%;
 	}
 	
-	.mainLinks {
-		margin: 0 auto;
-		text-align: center;
-		
-	}
 .cl-md-10, .rowWrapper, .mainMenu, .appointments {
 	min-height: 80vh;
 }
@@ -83,6 +85,7 @@ div.well {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 70%;
 }
 
 .leftAside {
@@ -106,7 +109,7 @@ div.well {
 footer {
 	width: 90%;
 	position:relative;
-padding-top: 7vh;
+padding-top: 5vh;
 margin: 0 auto;
 }
 
@@ -139,13 +142,40 @@ img[src^="karen"] {
 
 .socialRow {
 padding-top: 15px;}
-}
+
 
 
 div.container-mainFacebook {
 	width:50%;
 	margin: 0;
 }
+
+/*Links*/
+
+.well a:hover {
+	background-color:#99cc00;
+	}
+	
+.thumb, .well h5 {
+	margin-bottom: 25px;
+	}
+	
+ 
+.mainLinks {	
+width:95%;
+}
+
+.mainLinks {
+		margin: 0 auto;
+		text-align: center;
+			position:relative;
+	     top:3vh;
+		height:75vh;
+		
+			}
+			
+.links-header {
+	margin-top:15px;}
 
 /*Appointments*/
 
@@ -180,29 +210,68 @@ div.well {
 }
 
 
+.balloons{
+	background: url(balloons.jpg);
+	background-size: cover;
+}
+
 .coolCar{
-	background: url(images/CoolCar.jpg);
+	background: url(coolCar.jpg);
 	background-size: cover;
 }
 
 .girl{
-	background: url(images/girl.jpg);
+	background: url(girl.jpg);
+	background-size: cover;
+}
+
+
+
+.celebration{
+	background: url(celebration.jpg);
 	background-size: cover;
 }
 .breakfast{
-	background: url(images/breakfast.jpg);
+	background: url(breakfast.jpg);
 	background-size: cover;
 }
 
 .notebook{
-	background: url(images/notebook.jpg);
+	background: url(notebook.jpg);
 	background-size: cover;
 }
 
+.transparent {
+	animation-timing-function: linear;
+	animation: disappear 20s infinite;
+	}
+	
+@keyframes disappear {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 .well a {
 	color: black;
 }
 
+.bp {
+	width: 55%;
+	margin-top: 15vh;
+	transform: rotate(360deg);
+	-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+	animation: roll 25s infinite;
+}
 
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
